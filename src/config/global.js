@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'En búsqueda de la información',
+    descripcionCurso:
+      'Este componente formativo aborda diferentes metodologías para desarrollar proyectos de ciencia de datos, apropiarse de diversas fuentes de información necesarias para la búsqueda eficiente de datos. Con su estudio responsable, el aprendiz podrá identificar algunos formatos del manejo de datos y, finalmente, sabrá desplegar una herramienta tecnológica basada en Python para la preparación, limpieza y transformación de datos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,27 +40,55 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Metodologías de análisis de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Fuentes de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipos de bases de datos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos de archivos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Infraestructura tecnológica',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Instalación',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Puesta en marcha',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Instalación e importación de librerías',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Preparación de los datos',
         desarrolloContenidos: true,
       },
     ],
