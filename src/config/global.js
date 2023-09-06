@@ -139,32 +139,86 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Metodologías de análisis de datos.',
+      referencia: 'Conceptos básicos de ayuda de CRISP-DM. (2022). Metodología Crisp-DM.',
+      tipo: 'Página Web',
+      link: 'https://www.ibm.com/docs/es/spss-modeler/SaaS?topic=dm-crisp-help-overview',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Tipos de base de datos.',
+      referencia: 'Holamyndo. (s.f). ¿Qué es SQL y NOSQL? cuáles son sus diferencias y cuando deberías utilizarlos. [Video]. YouTube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=zmXl2dOGWL8&t=9s',
+    },
+    {
+      tema: 'Infraestructura tecnológica',
+      referencia: 'pandas documentation — pandas 1.4.2 documentation. (2022). Pandas.',
+      tipo: 'Página Web',
+      link: 'https://pandas.pydata.org/docs/index.html',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Extensión:',
+      significado: 'identificador al final de cada archivo que define su estructura.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Tipo de Archivo:',
+      significado: 'dependiendo del tipo de archivo se puede almacenar la información en estructuras diferentes de acuerdo con la necesidad o software que lo cree.',
+    },
+    {
+      termino: 'JSON:',
+      significado: 'formato que se basa en una estructura de texto simple que almacena la información en forma de objetos.',
+    },
+    {
+      termino: 'CSV:',
+      significado: 'extensión para definir archivos delimitados por comas, no almacena texto enriquecido ni imágenes o tablas.',
+    },
+    {
+      termino: 'XLSX:',
+      significado: 'extensión que se utiliza para identificar archivos procedentes de hojas de cálculo, como por ejemplo Excel.',
+    },
+    {
+      termino: 'Base de datos:',
+      significado: 'sistema que permite el almacenamiento de datos de manera organizada ya sea de manera relacional o no relacional.',
+    },
+    {
+      termino: 'Librerías:',
+      significado: 'conjunto de instrucciones que realizan una labor específica, y facilitan el desarrollo de proyectos.',
+    },
+    {
+      termino: 'Lenguaje SQL:',
+      significado: 'se utiliza para recuperar, modificar o eliminar información de una base de datos relacional.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Tiempo, A. (2022,). Limpieza de datos con Python - Al mal tiempo, buena data. Medium.',
+      link: 'https://lauralpezb.medium.com/limpieza-de-datos-con-python-48d436ca9ace',
+    },
+    {
+      referencia: 'L. (2021Manual de Anaconda y Conda. ¿Cómo administro y configuro mi entorno para Python? - Tutoriales de programación y un poco más.',
+      link: 'https://tutorialdeprogramacion.com/manual-conda-y-python/',
+    },
+    {
+      referencia: 'Introducción al CRISP-DM. (2021). IBM.',
+      link: 'https://www.ibm.com/docs/es/spss-modeler/SaaS?topic=guide-introduction-crisp-dm',
+    },
+    {
+      referencia: 'NumPy. (2022). Numpy.',
+      link: 'https://numpy.org/',
+    },
+    {
+      referencia: 'Datos Abiertos Colombia | Datos Abiertos Colombia. (2022). La plataforma de datos abiertos del gobierno colombiano.',
+      link: 'https://www.datos.gov.co/',
+    },
+    {
+      referencia: 'Oracle. (2022). Base de Datos.',
+      link: 'https://www.oracle.com/co/database/what-is-database/#:%7E:text=Una%20base%20de%20datos%20es,bases%20de%20datos%20(DBMS).',
+    },
+    {
+      referencia: 'Oracle. (2022). Tipos de Bases de Datos.',
+      link: 'https://www.oracle.com/co/database/what-is-database/#link5',
     },
   ],
   creditos: [
@@ -188,8 +242,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Ronald Alexander Vacca Ascanio',
+          cargo: 'Experto Temático',
+          centro:
+            'Dirección General, Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Jeimy Lorena Romero Perilla',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Regional Norte de Santander - Centro de la industria, la empresa y los servicios',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológica',
+          centro:
+            'Distrito Capital- Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Corrector de estilo',
+          centro:
+            'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -205,7 +283,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
@@ -217,7 +295,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Actividad Didáctica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
