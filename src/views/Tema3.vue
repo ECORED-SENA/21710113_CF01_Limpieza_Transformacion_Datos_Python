@@ -6,17 +6,17 @@
       .titulo-principal__numero
         span 3
       h1 Infraestructura tecnológica
-    
+
     p.mb-5 La herramienta utilizada en este curso para la lectura y manipulación de los archivos se basa en una distribución de #[em Python] llamada Anaconda, la cual es de uso gratuito, descargándola desde su sitio oficial.
-    
+
     .row.justify-content-center.mb-5
       .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema3/img01.svg' alt="Imagen decorativa")
       .col-lg-6(data-aos="fade-left")
-        .tarjeta.BG03.p-4.mb-4 
+        .tarjeta.BG03.p-4.mb-4
           p.mb-0 Es importante tener en cuenta como todo #[em software] que se vaya a utilizar dentro de un equipo de cómputo, requiere de unas condiciones técnicas para que el aplicativo funcione correctamente, por eso a continuación se hará una descripción detalla de dichas consideraciones y se dará a conocer el paso a paso para la instalación y despliegue de las herramientas de #[em software].
         p.mb-0 Para la implementación de una infraestructura tecnológica existe un concepto importante que tiene que ver con la unificación de diversas fuentes de información y herramientas de análisis, que optimizan las tareas de lectura, adecuación y procesamiento de los datos, a continuación, se reconocerá esta tecnología.
-    
+
     .BGIMG05.px-md-5.px-4.pb-5
       .mb-4.d-flex
         .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #FDBF2D; border-radius: 9px;" data-aos="fade-right")
@@ -38,7 +38,7 @@
       separador
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.1 Instalación
-      
+
       p.mb-5 Para empezar con la instalación de las herramientas tecnológicas que permita el despliegue del lenguaje de programación #[em Python], es importante que se valide los requerimientos mínimos técnicos con los que debe contar su equipo ya sea portátil o de escritorio, estos son:
 
       .row.justify-content-center.mb-5
@@ -79,7 +79,7 @@
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Puesta en Marcha
-    
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Es importante tener en cuenta que Anaconda maneja múltiples aplicativos, para este curso en particular se utilizará #[em JupiterLab], la cual es una herramienta web, que permite mediante una interfaz gráfica, ejecutar líneas de comando del lenguaje de programación #[em Python]. Estas líneas de código se ejecutan en celdas, de manera independiente, lo que permite ir probando cada parte del programa facilitando la detección de errores pues al ejecutarse, línea a línea, se puede saber exactamente dónde se encuentra la dificultad.
@@ -102,7 +102,7 @@
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.3 Instalación e importación de librerías
-    
+
     .BGM01.px-md-5.px-4.pb-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -133,7 +133,7 @@
                   img(src='@/assets/curso/tema3/img14.svg' alt="Imagen decorativa")
                 .col-lg-10
                   .h5.texto-acento-botones ¿Qué se busca con ellas?
-                  p.mb-0 El objetivo es utilizar un conjunto de librerías y que se aprovechen de cada una de ellas sus fortalezas. Dentro del desarrollo de proyectos se puede hacer uso de múltiples librerías y pueden combinarse para obtener mejores resultados.  
+                  p.mb-0 El objetivo es utilizar un conjunto de librerías y que se aprovechen de cada una de ellas sus fortalezas. Dentro del desarrollo de proyectos se puede hacer uso de múltiples librerías y pueden combinarse para obtener mejores resultados.
               .row.justify-content-center
                 .col-lg-2.col-4.mb-lg-0.mb-4
                   img(src='@/assets/curso/tema3/img15.svg' alt="Imagen decorativa")
@@ -145,7 +145,7 @@
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img10.png' alt="Imagen decorativa")
 
-    p.mb-5 El video que se muestra enseguida explica cada uno de los pasos para la importación de librerías:
+    p.my-5 El video que se muestra enseguida explica cada uno de los pasos para la importación de librerías:
 
     figure.mb-5(data-aos="zoom-in")
       .video
