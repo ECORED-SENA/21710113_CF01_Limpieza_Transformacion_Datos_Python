@@ -309,7 +309,41 @@
     .BGIMG02.p-md-5.p-4.pb-5
       p.text-center.mb-5 A continuación, conozca los pasos para convertir un archivo en formato CSV a formato XLSX:
       .BGRS02.p-4.mb-5
-        SlyderB(:datos="datosSlyder")
+        .tarjeta.p-4
+          SlyderA(tipo="b")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                p Desde la hoja de cálculo Excel, abrir el archivo formato CSV.
+
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/img28.jpg', alt='Imagen que muestra el archivo importado.')
+
+            .row.align-items-start
+              .col-md-6.mb-4.mb-md-0
+                p El objetivo es separar, dividendo por comas, cada uno de los registros para poder visualizarlos correctamente en filas y columnas. Para ello se selecciona toda la columna A, luego se selecciona la pestaña datos y se presiona texto en columnas.
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/img29.jpg', alt='Imagen que muestra la acción enunciada.')
+
+            .row
+              .col-md-6.mb-4.mb-md-0
+                p Entonces, se deben separar los datos por comas; una vez seleccionado texto en columnas se abrirá el asistente en el cual se podrá elegir cómo separar los registros. Se deben seleccionar delimitados, posteriormente seleccionar que la separación se realizará por comas.Desde la hoja de cálculo Excel, abrir el archivo formato CSV.
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/img30.jpg', alt='Imagen que muestra el resultado en el asistente.')
+
+            .row
+              .col-md-6.mb-4.mb-md-0
+                p Para terminar, se selecciona <strong>finalizar</strong> y se podrán tener los registros separados en columnas.
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/img31.jpg')
+
+
+
+
+        //SlyderB(:datos="datosSlyder")
 
       .mb-4.d-flex
         .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #FDBF2D; border-radius: 9px;" data-aos="fade-right")
@@ -361,7 +395,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    datosSlyder: [
+    /*datosSlyder: [
       {
         texto: 'Desde la hoja de cálculo Excel, abrir el archivo formato CSV.',
         imagen: require('@/assets/curso/tema2/img28.jpg'),
@@ -381,7 +415,7 @@ export default {
           'Para terminar, se selecciona <strong>finalizar</strong> y se podrán tener los registros separados en columnas.',
         imagen: require('@/assets/curso/tema2/img31.jpg'),
       },
-    ],
+    ],*/
   }),
   mounted() {
     this.$nextTick(() => {
