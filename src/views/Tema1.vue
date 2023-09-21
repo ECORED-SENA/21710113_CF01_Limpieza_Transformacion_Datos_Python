@@ -20,22 +20,22 @@
                 SlyderE(indicadores="derecha")
                   div
                     .h4 ASUM-DM
-                    p.mb-0 #[strong.texto-acento-botones (Analytics Solutions Unified Method):] dicha metodología se enfoca en realizar implementaciones agiles en temas de analítica de datos y minería de datos esta a su vez está basada en CRISP-DM, en la cual se dictan las especificaciones para llevar de manera ordenada y jerárquica tareas específicas para el análisis de los datos.
+                    p.mb-0 #[strong.texto-acento-botones (<i>Analytics Solutions Unified Method</i>):] dicha metodología se enfoca en realizar implementaciones agiles en temas de analítica de datos y minería de datos esta a su vez está basada en CRISP-DM, en la cual se dictan las especificaciones para llevar de manera ordenada y jerárquica tareas específicas para el análisis de los datos.
                   div
                     .h4 KDD
-                    p.mb-0 #[strong.texto-acento-botones (Knowledge Discovery in Databases):] la cual se basa en la evaluación e interpretación de patrones y modelos para tomar decisiones asertivas para el análisis, dichos patrones deben caracterizarse por ser muy útiles y entendibles.
+                    p.mb-0 #[strong.texto-acento-botones (Knowledge Discovery in Databases):] se basa en la evaluación e interpretación de patrones y modelos para tomar decisiones asertivas para el análisis. Dichos patrones deben caracterizarse por ser muy útiles y entendibles.
                   div
                     .h4 SEMMA
                     p.mb-0 #[strong.texto-acento-botones (Sample, Explore, Modify, Model, Assess):]  la cual permite la selección, exploración y modelado de grandes cantidades de datos para descubrir patrones de negocio que hasta ahora han sido desconocidos.
                   div
                     .h4 CRISP-DM
-                    p.mb-0 #[strong.texto-acento-botones (Cross-Industry Standard Process for Data Mining):] la cual permite llevar de manera organizada cada una de las etapas por la cuales debe pasar un proyecto de análisis de datos, incluyendo la limpieza y la trasformación de datos, esta metodología facilita la creación de estrategias y el establecimiento de   acciones necesarias para el cumplimiento de os objetivos propuestos en el negocio.
+                    p.mb-0 #[strong.texto-acento-botones (Cross-Industry Standard Process for Data Mining):] la cual permite llevar de manera organizada cada una de las etapas por la cuales debe pasar un proyecto de análisis de datos, incluyendo la limpieza y la trasformación de datos. Esta metodología facilita la creación de estrategias y el establecimiento de   acciones necesarias para el cumplimiento de os objetivos propuestos en el negocio.
         
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img02.svg' alt="Imagen decorativa")
         .col-lg-9(data-aos="fade-left")
-          p Teniendo en cuenta que la metodología que se debe trabajar en este curso es CRISP-DM (Cross-Industry Standard Process for Data Mining), es importante identificar los pasos para su implementación, el primer paso tiene que ver con identificar requerimientos del cliente o del negocio hacia el cual se va a hacer el análisis, es importante definir las metas y objetivos de la organización, a partir de allí iniciar con la exploración de los datos y su categorización.
+          p Teniendo en cuenta que la metodología que se debe trabajar en este curso es CRISP-DM <i>(Cross-Industry Standard Process for Data Mining)</i>, es importante identificar los pasos para su implementación, el primer paso tiene que ver con identificar requerimientos del cliente o del negocio hacia el cual se va a hacer el análisis, es importante definir las metas y objetivos de la organización, a partir de allí iniciar con la exploración de los datos y su categorización.
           p.mb-0 Posteriormente, se inicia con el proceso de preparación de los datos, aquí se crea el conjunto definitivo de los registros a los que se les va a realizar el análisis, se seleccionará el modelo a implementar para obtener los resultados esperados que serán sometidos a una etapa de evaluación, es importante tener en cuenta que todo este proceso es iterativo hasta perfeccionar cada fase y obtener los mejores resultados.
       
       p.mb-0 Para comprender mejor dicha metodología, se debe revisar con atención las etapas que se deben seguir para su correcta implementación:
@@ -66,7 +66,7 @@
             | Qué volumen de información maneja la organización.
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-laptop-code(style="color: #FDBF2D;")
-            | Con qué Instalaciones y con qué infraestructura cuenta la organización.  
+            | Con qué instalaciones y con qué infraestructura cuenta la organización.  
 
     .BGIMG01.px-md-5.px-4.pb-5.mb-5
       p.mb-5 Por otro lado, es fundamental identificar los roles que, dentro de la organización, son necesarios para desarrollar a cabo el proyecto de análisis. Conózcalos a continuación:
@@ -122,7 +122,7 @@
               img(src='@/assets/curso/tema1/img08.svg' alt="Imagen decorativa")
             .col-lg-9
               .h4.texto-acento-botones Identificación de áreas y de personal
-              p.mb-0 Es fundamental Identificar  el personal por área con el que cuenta la empresa, el conocimiento de negocio, las habilidades tecnológicas con las que cuentan cada uno de ellos por ejemplo, los administradores de base de datos puedan ser útiles para realizar la extracción de datos, por otro lado, es importante determinar los recursos computaciones y  las herramienta de software con lo que cuenta la organización, por ejemplo, equipos o servidores, características de procesamiento, bases de datos, software de extracción y análisis de datos.
+              p.mb-0 Es fundamental identificar  el personal por área con el que cuenta la empresa, el conocimiento de negocio, las habilidades tecnológicas con las que cuentan cada uno de ellos por ejemplo, los administradores de base de datos puedan ser útiles para realizar la extracción de datos, por otro lado, es importante determinar los recursos computaciones y  las herramienta de software con lo que cuenta la organización, por ejemplo, equipos o servidores, características de procesamiento, bases de datos, software de extracción y análisis de datos.
           .row.justify-content-center(titulo="Paso 5")
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img09.svg' alt="Imagen decorativa")
