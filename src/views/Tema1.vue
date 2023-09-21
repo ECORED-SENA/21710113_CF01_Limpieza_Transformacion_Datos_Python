@@ -6,9 +6,9 @@
       .titulo-principal__numero
         span 1
       h1 Metodologías de análisis de datos
-    
+
     .BGM01.p-md-5.p-4.mb-5
-      p.mb-5 Existen diferentes metodologías utilizadas para el análisis de los datos, para conocerlas, revise con atención el recurso que se muestra enseguida: 
+      p.mb-5 Existen diferentes metodologías utilizadas para el análisis de los datos, para conocerlas, revise con atención el recurso que se muestra enseguida:
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
@@ -20,30 +20,30 @@
                 SlyderE(indicadores="derecha")
                   div
                     .h4 ASUM-DM
-                    p.mb-0 #[strong.texto-acento-botones (<i>Analytics Solutions Unified Method</i>):] dicha metodología se enfoca en realizar implementaciones agiles en temas de analítica de datos y minería de datos esta a su vez está basada en CRISP-DM, en la cual se dictan las especificaciones para llevar de manera ordenada y jerárquica tareas específicas para el análisis de los datos.
+                    p.mb-0 #[strong.texto-acento-botones (#[i Analytics Solutions Unified Method]):] dicha metodología se enfoca en realizar implementaciones ágiles en temas de analítica de datos y minería de datos. A su vez, está basada en CRISP-DM, en la cual se dictan las especificaciones para llevar de manera ordenada y jerárquica tareas específicas para el análisis de los datos.
                   div
                     .h4 KDD
-                    p.mb-0 #[strong.texto-acento-botones (Knowledge Discovery in Databases):] se basa en la evaluación e interpretación de patrones y modelos para tomar decisiones asertivas para el análisis. Dichos patrones deben caracterizarse por ser muy útiles y entendibles.
+                    p.mb-0 #[strong.texto-acento-botones (#[i Knowledge Discovery in Databases]):] la metodología se basa en la evaluación e interpretación de patrones y modelos para tomar decisiones asertivas para el análisis. Dichos patrones deben caracterizarse por ser muy útiles y entendibles.
                   div
                     .h4 SEMMA
-                    p.mb-0 #[strong.texto-acento-botones (Sample, Explore, Modify, Model, Assess):]  la cual permite la selección, exploración y modelado de grandes cantidades de datos para descubrir patrones de negocio que hasta ahora han sido desconocidos.
+                    p.mb-0 #[strong.texto-acento-botones (#[i Sample, Explore, Modify, Model, Assess]):]  la cual permite la selección, exploración y modelado de grandes cantidades de datos para descubrir patrones de negocio que hasta ahora han sido desconocidos.
                   div
                     .h4 CRISP-DM
                     p.mb-0 #[strong.texto-acento-botones (Cross-Industry Standard Process for Data Mining):] la cual permite llevar de manera organizada cada una de las etapas por la cuales debe pasar un proyecto de análisis de datos, incluyendo la limpieza y la trasformación de datos. Esta metodología facilita la creación de estrategias y el establecimiento de   acciones necesarias para el cumplimiento de os objetivos propuestos en el negocio.
-        
+
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img02.svg' alt="Imagen decorativa")
         .col-lg-9(data-aos="fade-left")
           p Teniendo en cuenta que la metodología que se debe trabajar en este curso es CRISP-DM <i>(Cross-Industry Standard Process for Data Mining)</i>, es importante identificar los pasos para su implementación, el primer paso tiene que ver con identificar requerimientos del cliente o del negocio hacia el cual se va a hacer el análisis, es importante definir las metas y objetivos de la organización, a partir de allí iniciar con la exploración de los datos y su categorización.
           p.mb-0 Posteriormente, se inicia con el proceso de preparación de los datos, aquí se crea el conjunto definitivo de los registros a los que se les va a realizar el análisis, se seleccionará el modelo a implementar para obtener los resultados esperados que serán sometidos a una etapa de evaluación, es importante tener en cuenta que todo este proceso es iterativo hasta perfeccionar cada fase y obtener los mejores resultados.
-      
+
       p.mb-0 Para comprender mejor dicha metodología, se debe revisar con atención las etapas que se deben seguir para su correcta implementación:
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #FDBF2D; border-radius: 9px;" data-aos="fade-right")
         img.img-01.mb-1(src='@/assets/curso/temas/img01.svg' style="max-width: 45px; margin-left: 8px;")
-        h3.col.ps-3.mb-0 Etapa 1:  Fase Inicial    
+        h3.col.ps-3.mb-0 Etapa 1:  Fase Inicial
 
     p.mb-5 Como ya se mencionó antes, lo primero que se debe hacer es el levantamiento de la información, esto permitirá evidenciar qué tan preparada está la organización para iniciarse en un proyecto de analítica de datos, dentro de esta etapa se identifican factores como:
 
@@ -66,7 +66,7 @@
             | Qué volumen de información maneja la organización.
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-laptop-code(style="color: #FDBF2D;")
-            | Con qué instalaciones y con qué infraestructura cuenta la organización.  
+            | Con qué instalaciones y con qué infraestructura cuenta la organización.
 
     .BGIMG01.px-md-5.px-4.pb-5.mb-5
       p.mb-5 Por otro lado, es fundamental identificar los roles que, dentro de la organización, son necesarios para desarrollar a cabo el proyecto de análisis. Conózcalos a continuación:
@@ -88,13 +88,13 @@
               p.mb-0 Personal de la empresa que domina muy bien los objetivos y metas, se encarga de las estrategias empresariales y en proyectos de análisis de datos debe trabajar de la mano con el científico de datos.
             div(titulo="Gerente de datos y analítica")
               p.mb-0 Conoce todas las etapas y responsables del proyecto se encarga que todas las áreas de la empresa engranen y la información fluya de la mejor manera.
-      
+
       .mb-4.d-flex
         .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #FDBF2D; border-radius: 9px;" data-aos="fade-right")
           img.img-01.mb-1(src='@/assets/curso/temas/img01.svg' style="max-width: 45px; margin-left: 8px;")
           h3.col.ps-3.mb-0 Etapa 2: Comprender el negocio
 
-      p Durante esta etapa es importante tener claridad frente a los objetivos del negocio, además es fundamental determinar cuáles son los requerimientos y las necesidades de la empresa, teniendo claros dichos aspectos se pueden empezar a visualizar posibles problemas que tiene la empresa y que se quieren resolver con la implementación de la analítica. 
+      p Durante esta etapa es importante tener claridad frente a los objetivos del negocio, además es fundamental determinar cuáles son los requerimientos y las necesidades de la empresa, teniendo claros dichos aspectos se pueden empezar a visualizar posibles problemas que tiene la empresa y que se quieren resolver con la implementación de la analítica.
       p.mb-5 Para el desarrollo de esta etapa es importante tener en cuenta algunos aspectos, como:
 
       .tarjeta.BG02.p-4(data-aos="zoom-in")
@@ -122,37 +122,37 @@
               img(src='@/assets/curso/tema1/img08.svg' alt="Imagen decorativa")
             .col-lg-9
               .h4.texto-acento-botones Identificación de áreas y de personal
-              p.mb-0 Es fundamental identificar  el personal por área con el que cuenta la empresa, el conocimiento de negocio, las habilidades tecnológicas con las que cuentan cada uno de ellos por ejemplo, los administradores de base de datos puedan ser útiles para realizar la extracción de datos, por otro lado, es importante determinar los recursos computaciones y  las herramienta de software con lo que cuenta la organización, por ejemplo, equipos o servidores, características de procesamiento, bases de datos, software de extracción y análisis de datos.
+              p.mb-0 Es fundamental identificar  el personal por área con el que cuenta la empresa, el conocimiento de negocio, las habilidades tecnológicas con las que cuentan cada uno de ellos. Por ejemplo, los administradores de bases de datos pueden ser útiles para realizar la extracción de datos. Además, es importante determinar los recursos informáticos y las herramientas de #[i software] de las que dispone la organización, como equipos, servidores, capacidades de procesamiento, bases de datos y #[i software] de extracción y análisis de datos.
           .row.justify-content-center(titulo="Paso 5")
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img09.svg' alt="Imagen decorativa")
             .col-lg-9
               .h4.texto-acento-botones Cronograma de actividades
-              p.mb-0 Es importante realizar un cronograma de actividades   para el  desarrollo el proyecto, esto permitirá tener una visualización clara de cada una de las  tareas con sus respectivos responsables, por otro lado, es importante, cuando se trabaja con datos tener claridad sobre las políticas de protección de datos, las cuales normalmente  están regulados por leyes de Estado y estatutos propios de la empresa, para finalizare se debe analizar si existen limitantes en Hardware y Software  y en caso de que existan, es importante elevar  los requerimientos necesarios a quien corresponda.
+              p.mb-0 Es importante realizar un cronograma de actividades para el desarrollo del proyecto. Esto permitirá tener una visualización clara de cada una de las tareas con sus respectivos responsables. Además, cuando se trabaja con datos, es fundamental tener claridad sobre las políticas de protección de datos. Estas políticas suelen estar reguladas por leyes estatales y estatutos propios de la empresa. Por último, se debe analizar la existencia de limitaciones en cuanto a hardware y #[i software]. En caso de que existan, es crucial comunicar los requerimientos necesarios a las partes correspondientes.
           .row.justify-content-center(titulo="Paso 6")
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img10.svg' alt="Imagen decorativa")
             .col-lg-9
               .h4.texto-acento-botones Identificación de riesgos
-              p.mb-0 Se deben identificar los riesgos visibles, que, durante el proceso, se pueden llegar a presentar, por ejemplo, a nivel de recursos humanos el despido de personal, o desde lo tecnológico, las fallas en equipos o de herramientas que son importante para el proyecto, por ende, resulta fundamental, tener estructurada la ruta, mediante un documento maestro, que permita tomar las medidas para solucionar las posibles eventualidades presentadas.
+              p.mb-0 Es necesario identificar los riesgos visibles que pueden surgir durante el proceso. Por ejemplo, en el ámbito de los recursos humanos, podrían incluir el despido de personal, mientras que en el ámbito tecnológico, podrían incluirse fallas en equipos o herramientas cruciales para el proyecto. Por lo tanto, resulta fundamental contar con una ruta estructurada, documentada en un archivo maestro, que permita tomar medidas para abordar las posibles eventualidades que puedan surgir.
           .row.justify-content-center(titulo="Paso 7")
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img11.svg' alt="Imagen decorativa")
             .col-lg-9
               .h4.texto-acento-botones Comunicación eficaz
-              p.mb-0 Para tener una comunicación fluida entre todas las personas que hacen parte de la organización y las que trabajan directamente con el desarrollo de proyecto es importante socializar un documento y realizar capacitaciones frente a la terminología utilizada.
+              p.mb-0 Para tener una comunicación fluida entre todas las personas que hacen parte de la organización y las que trabajan directamente con el desarrollo de proyecto, es importante socializar un documento y realizar capacitaciones frente a la terminología utilizada.
           .row.justify-content-center(titulo="Paso 8")
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img12.svg' alt="Imagen decorativa")
             .col-lg-9
               .h4.texto-acento-botones Reportes
-              p.mb-0 Es necesario realizar un informe detallado que incluya los costos y beneficios que puede traer la implementación el proyecto, es importante tener en cuenta tanto los costos directos como indirectos para el proceso de recolección de los datos y en el despliegue del proyecto, así mismo es fundamental documentar los posibles beneficios que dicha implementación traerá a la organización una vez finalizada.
+              p.mb-0 Es necesario realizar un informe detallado que incluya los costos y beneficios que puede traer la implementación del proyecto. Es importante tener en cuenta tanto los costos directos como los indirectos en el proceso de recolección de los datos y en el despliegue del proyecto. Asimismo, es fundamental documentar los posibles beneficios que dicha implementación traerá a la organización una vez finalizada.
           .row.justify-content-center(titulo="Paso 9")
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img13.svg' alt="Imagen decorativa")
             .col-lg-9
               .h4.texto-acento-botones Claridad en los propósitos
-              p.mb-0 Para tener éxito en el proyecto es importante tener claro, en el paso a paso, qué se va a realizar en cada una de las etapas del proceso; de igual manera los involucrados y las responsabilidades bien definidas.
+              p.mb-0 Para tener éxito en el proyecto, es importante tener claro el paso a paso: qué se va a realizar en cada una de las etapas del proceso. De igual manera, los involucrados y las responsabilidades deben estar bien definidos.
           .row.justify-content-center(titulo="Paso 10")
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img14.svg' alt="Imagen decorativa")
@@ -165,13 +165,13 @@
         img.img-01.mb-1(src='@/assets/curso/temas/img01.svg' style="max-width: 45px; margin-left: 8px;")
         h3.col.ps-3.mb-0 Etapa 3:  Fuentes de información y descripción de los datos
 
-    p.mb-5 Para realizar un análisis de datos exitoso es necesario realizar una recolección de datos iniciales que permita determinar la consistencia de la información, se espera que en dicha recolección sea posible describirlos, realizar todas las exploraciones planteadas y realizar la verificación de la calidad de los mismos.
+    p.mb-5 Para llevar a cabo un análisis de datos exitoso, es necesario realizar una recolección de datos iniciales que permita determinar la consistencia de la información. Se espera que en dicha recolección sea posible describirlos, llevar a cabo todas las exploraciones planteadas y realizar la verificación de la calidad de los mismos.
 
     .row.justify-content-center.mb-5
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img15.svg' alt="Imagen decorativa")
       .col-lg-7(data-aos="fade-left")
-        p.mb-0 En ese orden de ideas, existen diferentes fuentes de información, es decir los diferentes medios a partir de los cuales se pueden adquirir los datos, puede ser que la organización tenga sus datos en sus sistemas privados de los cuales son propietarios, o también puede adquirirlos desde sistemas externos (pagos o gratuitos).
+        p.mb-0 En ese orden de ideas, existen diferentes fuentes de información, es decir, los diversos medios a través de los cuales se pueden adquirir los datos. Puede ser que la organización tenga sus datos en sus sistemas privados, de los cuales es propietaria, o también puede adquirirlos desde sistemas externos (ya sean de pago o gratuitos).
 
     .BGM01.p-md-5.p-4.mb-5
       .row.justify-content-center.mb-5
@@ -183,7 +183,7 @@
               img(src='@/assets/curso/tema1/img16.png' alt="Imagen decorativa")
             .p-4
               .h4.texto-acento-botones.text-center.mb-4 Fuentes propias de datos
-              p.text-center.mb-0 Es todo de tipo de información privada de cual se es propietario y se tiene completo control, como, por ejemplo, sistemas de información, encuestas, movimientos transaccionales, y demás datos relevantes de la compañía.
+              p.text-center.mb-0 Es todo de tipo de información privada de cual se es propietario y se tiene completo control, como, por ejemplo, sistemas de información, encuestas, movimientos transaccionales y demás datos relevantes de la compañía.
         .col-xl-5.col-lg-6.mb-5(data-aos="fade-left")
           .BGRT02.hg-01
             figure
@@ -206,7 +206,7 @@
               img(src='@/assets/curso/tema1/img19.png' alt="Imagen decorativa")
             .p-4
               .h4.texto-acento-botones.text-center.mb-4 Datos numéricos
-              p.text-center Representan un valor que se puede cuantificar de forma numérica y los cuáles se les puede aplicar diversos métodos estadísticos, dentro de este tipo de datos podemos definir edad, salario, temperatura, etc. 
+              p.text-center Representan un valor que se puede cuantificar de forma numérica y los cuáles se les puede aplicar diversos métodos estadísticos, dentro de este tipo de datos podemos definir edad, salario, temperatura, etc.
               p.text-center.mb-0  Al ser numéricos se pueden sumar, promediar y en general aplicar todas las operaciones matemáticas y estadísticas.
 
     p.mb-5 Después de determinar los datos categóricos y numéricos es fundamental establecer las medidas de tendencia central como la moda, media, mediana, varianzas, máximos y mínimos.
@@ -234,7 +234,7 @@
             | Hay datos con formatos incorrectos, ¿qué hacer si esto se presenta?
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-laptop-code(style="color: #FDBF2D;")
-            | Hay datos duplicados, ¿qué hacer si esto se presenta? 
+            | Hay datos duplicados, ¿qué hacer si esto se presenta?
         p.mb-0 Finalmente, es importante la generación de los informes que indiquen el estado en que se encontraron los datos. En este, se debe considerar el proceso que se llevó a cabo para la recolección de los datos, la descripción encontrada del estado de los datos y la descripción del proceso de exploración y calidad de los datos.
 
     .row.justify-content-center.mb-5
@@ -245,7 +245,7 @@
               img(src='@/assets/curso/tema1/img21.svg' alt="Imagen decorativa")
             .col
               p.mb-0 El informe debe incluir el número total de registros, la clasificación de cada columna en numérica y categórica, una breve descripción de lo que cada columna representa, se debe identificar cuales columnas presentan datos vacíos, si existen valores duplicados, y que columnas se encuentran en un formato incorrecto.
-      
+
 </template>
 
 <script>

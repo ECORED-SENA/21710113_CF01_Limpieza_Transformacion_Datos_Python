@@ -10,9 +10,9 @@
     .BGM01.p-md-5.p-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-          p Una de las etapas más importantes en los proyectos de ciencia de datos es la búsqueda y preparación de los datos puesto estos son el insumo principal con el que se debe empezar a trabajar. Por ende, es fundamental definir de dónde se obtendrán los datos y qué estrategias se implementarán para la obtención de la información inicial.
-          p Teniendo los aspectos anteriores claros, se pueden determinar si los datos privados con los que cuenta la organización son suficientes o si, por el contrario, se necesita obtener información en fuentes externas.
-          p.mb-0 Si el análisis o investigación arroja que se necesitan definitivamente datos externos, porque la empresa no cuenta con este insumo, es importante iniciar dicha preparación planteándose algunas preguntas, como:
+          p Una de las etapas más importantes en los proyectos de ciencia de datos es la búsqueda y preparación de los datos, ya que estos son el insumo principal con el que se debe empezar a trabajar. Por ende, es fundamental definir de dónde se obtendrán los datos y qué estrategias se implementarán para la obtención de la información inicial.
+          p Teniendo claros los aspectos anteriores, se puede determinar si los datos privados con los que cuenta la organización son suficientes o si, por el contrario, se necesita obtener información de fuentes externas.
+          p.mb-0 Si el análisis o investigación arroja que se necesitan definitivamente datos externos porque la empresa no cuenta con este insumo, es importante iniciar dicha preparación planteándose algunas preguntas, como:
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema4/img1.png' alt="Imagen decorativa")
 
@@ -29,7 +29,7 @@
           ul.lista-ul--color
             li(style="margin-bottom: 16px")
               i.fas.fa-laptop-code(style="color: #FDBF2D;")
-              span El manejo de bases de datos relacionales y no relaciones.
+              span El manejo de bases de datos relacionales y no relacionales.
             li(style="margin-bottom: 16px")
               i.fas.fa-laptop-code(style="color: #FDBF2D;")
               span Manejar el lenguaje SQL para la extracción personalizada de información.
@@ -37,7 +37,7 @@
               i.fas.fa-laptop-code(style="color: #FDBF2D;")
               span Manejar los diferentes formatos y estructuras para almacenar la información.
 
-      p.mb-5 Algunas fuentes de información públicas requieren de registro en sus plataformas para ser descargar información, otras simplemente requieren de ciertos datos para ser descargada sin ninguna restricción.
+      p.mb-5 Algunas fuentes de información públicas requieren de registro en sus plataformas para descargar información, otras simplemente requieren de ciertos datos para ser descargarla sin ninguna restricción.
 
     .row.justify-content-center.img-02
       .col-lg-10
@@ -51,14 +51,14 @@
                   h4.mb-1 Ejemplo busqueda de información
                   p.mb-0 Lo invitamos a consultar el siguiente recurso donde encontrará un ejemplo de búsqueda de información en fuentes de datos que son públicas y que se pueden descargar gratuitamente.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Ejemplo_busqueda_de_información.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Ejemplo_busqueda_de_informacion.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
 
     .mb-5.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #FDBF2D; border-radius: 9px;" data-aos="fade-right")
         img.img-01.mb-1(src='@/assets/curso/temas/img01.svg' style="max-width: 45px; margin-left: 8px;")
-        h3.col.ps-3.mb-0 Lectura de Archivos en diferentes formatos
+        h3.col.ps-3.mb-0 Lectura de archivos en diferentes formatos
 
     .row.justify-content-center.mb-4
       .col-auto(data-aos="fade-right")
@@ -75,21 +75,22 @@
           span Carpeta con Archivos
         .row.justify-content-center(data-aos="zoom-in")
           .col-lg-7.col-10.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img05.jpg' alt="Imagen decorativa")
+            img(src='@/assets/curso/tema4/img05.jpg' alt="Imagen que muestra la ubicación de tres tipos de archivos, según el ejercicio de ejemplo.")
           .col-lg-5.col-10
-            p.mb-0 Como la imagen muestra, se trata de archivos diferentes, identificados cada uno con su respectiva extensión, el primer archivo llamado #[em Archivo1.csv] es un archivo delimitado por comas con extensión #[em CSV], segundo archivo #[em Archivo.json] tal como su extensión lo indica es un archivo con una estructura tipo #[em JSON], y el último archivo denominado #[em Archivo.xlsx] es una hoja de cálculo con formato #[em XLSX] y como se sabe es una extensión de archivos del programa #[em Excel].
+            p.mb-0 Como la imagen muestra, se trata de archivos diferentes, identificados cada uno con su respectiva extensión, el primer archivo llamado #[em Archivo1.csv] es un archivo delimitado por comas con extensión #[em CSV], segundo archivo #[em Archivo.json] tal como su extensión lo indica es un archivo con una estructura tipo #[em JSON], y el último archivo denominado #[em Archivo.xlsx] es una hoja de cálculo con formato #[em XLSX] y como se sabe es una extensión de archivos del programa Excel.
 
-    p.mb-5 Directamente desde la plataforma #[em JupiterLab] se pueden ver los archivos para analizar un poco los datos. para ese fin es importante hacer clic sobre el archivo que desea visualizar y la información se podrá observar en el panel de la derecha:
+    p.mb-5 Directamente desde la plataforma JupiterLab se pueden ver los archivos para analizar un poco los datos. para ese fin es importante hacer clic sobre el archivo que desea visualizar y la información se podrá observar en el panel de la derecha:
 
     .row.justify-content-center.mb-5
       .col-lg-10.BG04.p-5
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 5.
-          span Visualizando Archivos desde #[em JupiterLab]
+          span Visualizando Archivos desde JupiterLab
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema4/img06.jpg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema4/img06.jpg' alt="Imagen que muestra la información encontrada al clicar uno de los tipos de archivos propuestos en el ejemplo. ")
 
     p.mb-5 Para ver el archivo tipo JSON, igualmente se debe hacer doble clic sobre el archivo con extensión JSON:
+
 
     .row.justify-content-center.mb-5
       .col-lg-10.BG04.p-5
@@ -97,10 +98,9 @@
           h5 Figura 6.
           span Visualizar Archivos tipo JSON
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema4/img07.jpg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema4/img07.jpg' alt="Imagen que muestra la información desplegada al hacer clic sobre el archivo con extensión JSON, cuando ese es el caso.")
 
     p.mb-5 Al leer el último archivo que es de tipo XLSX puede presentar el siguiente error:
-
 
     .BG04.mb-5.p-5
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -108,7 +108,7 @@
         span Error Abriendo el Archivo de Excel
       .row.justify-content-center(data-aos="zoom-in")
         .col-lg-7.col-10.mb-lg-0.mb-4
-          img(src='@/assets/curso/tema4/img08.jpg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema4/img08.jpg' alt="Imagen que muestra el cuadro de diálogo que se despliega al leer el último archivo, que es de tipo XLSX.")
         .col-lg-5.col-10
           p.mb-0 Este archivo no se puede abrir directamente en el panel, aunque esto no sería una preocupación, toda vez que este tipo de archivo se puede visualizar directamente con el programa Excel, pero sí se debe tener en cuenta la codificación UTF-8 al momento de leerlo para pasarlo a un #[em Dataframe].
 
@@ -155,7 +155,7 @@
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia f] = #[span.texto-fucsia open]("#[span.texto-purpura Archivo3.xlsx]", #[span.texto-cielo mode]="#[span.texto-purpura r]", #[span.texto-cielo encoding]="#[span.texto-purpura utf-8]")
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia df3] = #[span.texto-fucsia pd].#[span.texto-cielo read_excel]('#[span.texto-purpura Archivo3.xlsx]')
           div(titulo="Unir los <em>dataframe</em>")
-            p Cada archivo se importó en un Dataframe independiente, para este ejemplo, cada uno de los resultados de las importaciones manejan las mismas columnas en las mismas posiciones, lo que quiere decir que se puede unificar en un solo archivo; cada archivo cuenta con mil registros y nueve columnas, por ende, el resultado final debe mostrar 3000 registros y nueve columnas, para obtener este resultado se debe ejecutar las siguientes líneas de comando:
+            p Cada archivo se importó en un #[em Dataframe] independiente, para este ejemplo, cada uno de los resultados de las importaciones manejan las mismas columnas en las mismas posiciones, lo que quiere decir que se puede unificar en un solo archivo; cada archivo cuenta con mil registros y nueve columnas, por ende, el resultado final debe mostrar 3000 registros y nueve columnas, para obtener este resultado se debe ejecutar las siguientes líneas de comando:
             .row
               .col-lg-5.col-10
                 .BG08.p-4

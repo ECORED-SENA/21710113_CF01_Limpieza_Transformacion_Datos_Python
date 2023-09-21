@@ -139,7 +139,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Metodologías de análisis de datos.',
+      tema: '1. Metodologías de análisis de datos.',
       referencia:
         'Conceptos básicos de ayuda de CRISP-DM. (2022). Metodología Crisp-DM.',
       tipo: 'Página Web',
@@ -147,58 +147,58 @@ export default {
         'https://www.ibm.com/docs/es/spss-modeler/SaaS?topic=dm-crisp-help-overview',
     },
     {
-      tema: 'Tipos de base de datos.',
+      tema: '2.1 Tipos de base de datos.',
       referencia:
         'Holamyndo. (s.f). ¿Qué es SQL y NOSQL? cuáles son sus diferencias y cuando deberías utilizarlos. [Video]. YouTube',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=zmXl2dOGWL8&t=9s',
     },
     {
-      tema: 'Infraestructura tecnológica',
+      tema: '3. Infraestructura tecnológica',
       referencia:
-        'pandas documentation — pandas 1.4.2 documentation. (2022). Pandas.',
+        'Pandas documentation — Pandas 1.4.2 documentation. (2022). Pandas.',
       tipo: 'Página Web',
       link: 'https://pandas.pydata.org/docs/index.html',
     },
   ],
   glosario: [
     {
-      termino: 'Extensión:',
+      termino: 'Extensión',
       significado:
         'identificador al final de cada archivo que define su estructura.',
     },
     {
-      termino: 'Tipo de Archivo:',
+      termino: 'Tipo de Archivo',
       significado:
-        'dependiendo del tipo de archivo se puede almacenar la información en estructuras diferentes de acuerdo con la necesidad o software que lo cree.',
+        'dependiendo del tipo de archivo se puede almacenar la información en estructuras diferentes de acuerdo con la necesidad o <em>software</em> que lo cree.',
     },
     {
-      termino: 'JSON:',
+      termino: 'JSON',
       significado:
         'formato que se basa en una estructura de texto simple que almacena la información en forma de objetos.',
     },
     {
-      termino: 'CSV:',
+      termino: 'CSV',
       significado:
         'extensión para definir archivos delimitados por comas, no almacena texto enriquecido ni imágenes o tablas.',
     },
     {
-      termino: 'XLSX:',
+      termino: 'XLSX',
       significado:
         'extensión que se utiliza para identificar archivos procedentes de hojas de cálculo, como por ejemplo Excel.',
     },
     {
-      termino: 'Base de datos:',
+      termino: 'Base de datos',
       significado:
         'sistema que permite el almacenamiento de datos de manera organizada ya sea de manera relacional o no relacional.',
     },
     {
-      termino: 'Librerías:',
+      termino: 'Librerías',
       significado:
         'conjunto de instrucciones que realizan una labor específica, y facilitan el desarrollo de proyectos.',
     },
     {
-      termino: 'Lenguaje SQL:',
+      termino: 'Lenguaje SQL',
       significado:
         'se utiliza para recuperar, modificar o eliminar información de una base de datos relacional.',
     },
@@ -212,7 +212,7 @@ export default {
     },
     {
       referencia:
-        'L. (2021Manual de Anaconda y Conda. ¿Cómo administro y configuro mi entorno para Python? - Tutoriales de programación y un poco más.',
+        'L. (2021). Manual de Anaconda y Conda. ¿Cómo administro y configuro mi entorno para Python? - Tutoriales de programación y un poco más.',
       link: 'https://tutorialdeprogramacion.com/manual-conda-y-python/',
     },
     {
@@ -304,14 +304,20 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Emilsen Alfonso Bautista',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
