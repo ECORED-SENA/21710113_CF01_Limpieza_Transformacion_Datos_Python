@@ -338,7 +338,7 @@
                 p Para terminar, se selecciona <strong>finalizar</strong> y se podrán tener los registros separados en columnas.
               .col-md-6
                 figure
-                  img(src='@/assets/curso/tema2/img31.jpg')
+                  img(src='@/assets/curso/tema2/img31.jpg', alt="Imagen que muestra los registros separados en columnas.")
 
 
 
