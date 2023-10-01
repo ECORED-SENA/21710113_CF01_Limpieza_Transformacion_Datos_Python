@@ -29,7 +29,7 @@
                     p.mb-0 #[strong.texto-acento-botones (#[i Sample, Explore, Modify, Model, Assess]):]  la cual permite la selección, exploración y modelado de grandes cantidades de datos para descubrir patrones de negocio que hasta ahora han sido desconocidos.
                   div
                     .h4 CRISP-DM
-                    p.mb-0 #[strong.texto-acento-botones (Cross-Industry Standard Process for Data Mining):] la cual permite llevar de manera organizada cada una de las etapas por la cuales debe pasar un proyecto de análisis de datos, incluyendo la limpieza y la trasformación de datos. Esta metodología facilita la creación de estrategias y el establecimiento de   acciones necesarias para el cumplimiento de os objetivos propuestos en el negocio.
+                    p.mb-0 #[strong.texto-acento-botones (Cross-Industry Standard Process for Data Mining):] la cual permite llevar de manera organizada cada una de las etapas por la cuales debe pasar un proyecto de análisis de datos, incluyendo la limpieza y la trasformación de datos. Esta metodología facilita la creación de estrategias y el establecimiento de   acciones necesarias para el cumplimiento de los objetivos propuestos en el negocio.
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
@@ -79,7 +79,7 @@
             div(titulo="Patrocinador del proyecto")
               p.mb-0 Es la persona dentro de la organización de nivel superior encargada de tomar las decisiones importantes, y responsable que el proyecto tenga los insumos tecnológicos y humanos requeridos.
             div(titulo="Arquitecto empresarial")
-              p.mb-0 Su responsabilidad se basa en mantener todo el inventario a nivel tecnológico al día y acorde a las metas propuestas por la empresa.
+              p.mb-0 Su responsabilidad se basa en mantener todo el inventario, a nivel tecnológico, al día y acorde a las metas propuestas por la empresa.
             div(titulo="Arquitecto de datos")
               p.mb-0 Se encarga de garantizar la infraestructura necesaria para soportar los proyectos de ciencia de datos.
             div(titulo="Científico de datos")
@@ -128,7 +128,7 @@
               img(src='@/assets/curso/tema1/img09.svg' alt="Imagen decorativa")
             .col-lg-9
               .h4.texto-acento-botones Cronograma de actividades
-              p.mb-0 Es importante realizar un cronograma de actividades para el desarrollo del proyecto. Esto permitirá tener una visualización clara de cada una de las tareas con sus respectivos responsables. Además, cuando se trabaja con datos, es fundamental tener claridad sobre las políticas de protección de datos. Estas políticas suelen estar reguladas por leyes estatales y estatutos propios de la empresa. Por último, se debe analizar la existencia de limitaciones en cuanto a hardware y #[i software]. En caso de que existan, es crucial comunicar los requerimientos necesarios a las partes correspondientes.
+              p.mb-0 Es importante realizar un cronograma de actividades para el desarrollo del proyecto. Esto permitirá tener una visualización clara de cada una de las tareas con sus respectivos responsables. Además, cuando se trabaja con datos, es fundamental tener claridad sobre las políticas de protección de datos. Estas políticas suelen estar reguladas por leyes estatales y estatutos propios de la empresa. Por último, se debe analizar la existencia de limitaciones en cuanto a #[i hardware y software]. En caso de que existan, es crucial comunicar los requerimientos necesarios a las partes correspondientes.
           .row.justify-content-center(titulo="Paso 6")
             .col-lg-2.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img10.svg' alt="Imagen decorativa")
@@ -183,7 +183,7 @@
               img(src='@/assets/curso/tema1/img16.png' alt="Imagen decorativa")
             .p-4
               .h4.texto-acento-botones.text-center.mb-4 Fuentes propias de datos
-              p.text-center.mb-0 Es todo de tipo de información privada de cual se es propietario y se tiene completo control, como, por ejemplo, sistemas de información, encuestas, movimientos transaccionales y demás datos relevantes de la compañía.
+              p.text-center.mb-0 Es todo tipo de información privada, del cual se es propietario y se tiene completo control, como, por ejemplo, sistemas de información, encuestas, movimientos transaccionales y demás datos relevantes de la compañía.
         .col-xl-5.col-lg-6.mb-5(data-aos="fade-left")
           .BGRT02.hg-01
             figure
@@ -244,7 +244,7 @@
             .col-lg-1.col-2.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img21.svg' alt="Imagen decorativa")
             .col
-              p.mb-0 El informe debe incluir el número total de registros, la clasificación de cada columna en numérica y categórica, una breve descripción de lo que cada columna representa, se debe identificar cuales columnas presentan datos vacíos, si existen valores duplicados, y que columnas se encuentran en un formato incorrecto.
+              p.mb-0 El informe debe incluir el número total de registros, la clasificación de cada columna en numérica y categórica, una breve descripción de lo que cada columna representa, se debe identificar cuáles columnas presentan datos vacíos, si existen valores duplicados, y qué columnas se encuentran en un formato incorrecto.
 
 </template>
 

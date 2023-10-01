@@ -37,7 +37,7 @@
               i.fas.fa-laptop-code(style="color: #FDBF2D;")
               span Manejar los diferentes formatos y estructuras para almacenar la información.
 
-      p.mb-5 Algunas fuentes de información públicas requieren de registro en sus plataformas para descargar información, otras simplemente requieren de ciertos datos para ser descargarla sin ninguna restricción.
+      p.mb-5 Algunas fuentes de información públicas requieren de registro en sus plataformas para descargar información, otras simplemente requieren de ciertos datos para descargarla sin ninguna restricción.
 
     .row.justify-content-center.img-02
       .col-lg-10
@@ -48,7 +48,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 Ejemplo busqueda de información
+                  h4.mb-1 Ejemplo búsqueda de información
                   p.mb-0 Lo invitamos a consultar el siguiente recurso donde encontrará un ejemplo de búsqueda de información en fuentes de datos que son públicas y que se pueden descargar gratuitamente.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Ejemplo_busqueda_de_informacion.pdf')" target="_blank" type="application/pdf")
@@ -66,7 +66,7 @@
       .col(data-aos="fade-left")
         p.mb-0 A continuación, a través de un ejemplo, se van a leer diversos tipos de formatos y estructuras, se revisarán las estructuras de cada uno de los archivos y se procederá con la unificación, entendiendo que todos los archivos manejan el mismo número de columnas en la misma posición.
 
-    p.mb-5 Para comenzar es importante ubicar, en la misma ruta donde se crearán los notebooks, tres tipos de archivos diferentes como se muestra en la Figura 4.
+    p.mb-5 Para comenzar es importante ubicar, en la misma ruta donde se crearán los #[i notebooks], tres tipos de archivos diferentes como se muestra en la Figura 4.
 
     .row.justify-content-center.mb-5
       .col-lg-10.BG04.p-5
@@ -79,13 +79,13 @@
           .col-lg-5.col-10
             p.mb-0 Como la imagen muestra, se trata de archivos diferentes, identificados cada uno con su respectiva extensión, el primer archivo llamado #[em Archivo1.csv] es un archivo delimitado por comas con extensión #[em CSV], segundo archivo #[em Archivo.json] tal como su extensión lo indica es un archivo con una estructura tipo #[em JSON], y el último archivo denominado #[em Archivo.xlsx] es una hoja de cálculo con formato #[em XLSX] y como se sabe es una extensión de archivos del programa Excel.
 
-    p.mb-5 Directamente desde la plataforma JupiterLab se pueden ver los archivos para analizar un poco los datos. para ese fin es importante hacer clic sobre el archivo que desea visualizar y la información se podrá observar en el panel de la derecha:
+    p.mb-5 Directamente desde la plataforma JupyterLab se pueden ver los archivos para analizar un poco los datos, para ese fin es importante hacer clic sobre el archivo que desea visualizar y la información se podrá observar en el panel de la derecha:
 
     .row.justify-content-center.mb-5
       .col-lg-10.BG04.p-5
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 5.
-          span Visualizando Archivos desde JupiterLab
+          span Visualizando Archivos desde JupyterLab
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema4/img06.jpg' alt="Imagen que muestra la información encontrada al clicar uno de los tipos de archivos propuestos en el ejemplo. ")
 
@@ -132,14 +132,14 @@
           div(titulo="Leer archivo CSV")
             p Para realizar la lectura de archivos con extensión CSV, se ejecuta la siguiente línea de comandos, el resultado muestra los cinco primeros y cinco últimos registros importados, al final se debe visualizar el total de registros y número de columnas:
             .row
-              .col-lg-5.col-10
+              .col-lg-8.col-11
                 .BG08.p-4
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia df1] = #[span.texto-fucsia pd].#[span.texto-cielo read_csv]('#[span.texto-purpura Archivo1.csv]')
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia df1]
           div(titulo="Importar archivos JSON")
             p Este tipo de estructuras se deben convertir en filas y columnas para que se puedan utilizar en el análisis de los datos y poderlas unir, también, con los otros dos archivos. Para realizar la importación de este tipo de estructuras se debe usar el siguiente comando:
             .row
-              .col-lg-5.col-10
+              .col-lg-8.col-11
                 .BG08.p-4
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia df2] = #[span.texto-fucsia pd].#[span.texto-cielo read_json]('#[span.texto-purpura Archivo2.json]')
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia df2]
@@ -150,7 +150,7 @@
           div(titulo="Importar archivos XLSX")
             p Para realizar la importación de este archivo se debe tener cuenta el error que se generó anteriormente. Para solucionar este problema y poderlo importar sin inconvenientes, se deben ejecutar los comandos de la siguiente manera: primero se realiza la codificación para luego realizar la importación, de lo contrario se generarán errores.
             .row
-              .col-lg-5.col-10
+              .col-lg-8.col-10
                 .BG08.p-4
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia f] = #[span.texto-fucsia open]("#[span.texto-purpura Archivo3.xlsx]", #[span.texto-cielo mode]="#[span.texto-purpura r]", #[span.texto-cielo encoding]="#[span.texto-purpura utf-8]")
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia df3] = #[span.texto-fucsia pd].#[span.texto-cielo read_excel]('#[span.texto-purpura Archivo3.xlsx]')
@@ -162,7 +162,7 @@
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia df]=#[span.texto-fucsia pd].#[span.texto-cielo concat]([#[span.texto-purpura df1],#[span.texto-purpura df2],#[span.texto-purpura df3]])
                   p.texto-blanco-c.mb-2 #[span.texto-fucsia df]
           div(titulo="Guardar en único formato")
-            p Se debe guardar todo el proceso en único tipo de formato para que en las próximas lecturas solo se tenga que leer un solo archivo con toda la información consolidada, para ello es importante ejecutar la siguiente línea de comando:
+            p Se debe guardar todo el proceso en un único tipo de formato para que en las próximas lecturas solo se tenga que leer un solo archivo con toda la información consolidada, para ello es importante ejecutar la siguiente línea de comando:
             .row
               .col-lg-5.col-10
                 .BG08.p-4

@@ -149,7 +149,7 @@ export default {
     {
       tema: '2.1 Tipos de base de datos.',
       referencia:
-        'Holamyndo. (s.f). ¿Qué es SQL y NOSQL? cuáles son sus diferencias y cuando deberías utilizarlos. [Video]. YouTube',
+        'Holamyndo. (s.f). ¿Qué es SQL y NOSQL? cuáles son sus diferencias y cuándo deberías utilizarlos. [Video]. YouTube',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=zmXl2dOGWL8&t=9s',
     },

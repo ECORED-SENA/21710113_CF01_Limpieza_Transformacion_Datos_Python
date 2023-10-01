@@ -83,17 +83,17 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p Es importante tener en cuenta que Anaconda maneja múltiples aplicativos, para este curso en particular se utilizará JupiterLab, la cual es una herramienta web, que permite mediante una interfaz gráfica, ejecutar líneas de comando del lenguaje de programación Python. Estas líneas de código se ejecutan en celdas, de manera independiente, lo que permite ir probando cada parte del programa facilitando la detección de errores pues al ejecutarse, línea a línea, se puede saber exactamente dónde se encuentra la dificultad.
+        p Es importante tener en cuenta que Anaconda maneja múltiples aplicativos, para este curso en particular se utilizará JupyterLab, la cual es una herramienta web, que permite mediante una interfaz gráfica, ejecutar líneas de comando del lenguaje de programación Python. Estas líneas de código se ejecutan en celdas, de manera independiente, lo que permite ir probando cada parte del programa facilitando la detección de errores pues al ejecutarse, línea a línea, se puede saber exactamente dónde se encuentra la dificultad.
         .tarjeta.BG06.p-4.mb-5(data-aos="flip-up")
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema3/img09.svg" alt="Imagen decorativa")
             .col
-              p.mb-0 Por otro lado, Python, gracias a sus aplicaciones y gran número de librerías es el lenguaje de programación mayormente utilizado para proyectos de ciencia de datos. JupiterLab es una herramienta muy intuitiva y muy fácil de usar, lo que permite que el despliegue sea realmente sencillo.
+              p.mb-0 Por otro lado, Python, gracias a sus aplicaciones y gran número de librerías es el lenguaje de programación mayormente utilizado para proyectos de ciencia de datos. JupyterLab es una herramienta muy intuitiva y muy fácil de usar, lo que permite que el despliegue sea realmente sencillo.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema3/img08.png' alt="Imagen decorativa")
 
-    p Para empezar a trabajar en un proyecto de desarrollo se debe abrir la aplicación Jupiterlab, para realizar este procedimiento, se abre el programa Anaconda y se busca la aplicación #[em Anaconda Navigator], y, dentro de sus aplicaciones, se puede encontrar dicha herramienta.
+    p Para empezar a trabajar en un proyecto de desarrollo se debe abrir la aplicación Jupyterlab, para realizar este procedimiento, se abre el programa Anaconda y se busca la aplicación Anaconda Navigator, y, dentro de sus aplicaciones, se puede encontrar dicha herramienta.
     p.mb-5 Sepa cómo crear el entorno de trabajo; atienda la explicación y de los pasos necesarios, los cuales se ofrecen en el siguiente video:
 
     figure.mb-5(data-aos="zoom-in")
@@ -108,7 +108,7 @@
     .BGM01.px-md-5.px-4.pb-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-          p Hasta este punto ya se conocen los procedimientos básicos para instalar las herramientas necesarias para realizar el análisis de datos; igualmente, ya se sabe cómo desplegar el entorno de trabajo JupiterLab, así como se han identificado cada uno de los elementos que la conforman. En este apartado se profundizará en cada una de las librerías necesarias para trabajar proyectos de ciencia de datos, puntualmente las que ayudarán en todo el proceso de limpieza y transformación de los datos.
+          p Hasta este punto ya se conocen los procedimientos básicos para instalar las herramientas necesarias para realizar el análisis de datos; igualmente, ya se sabe cómo desplegar el entorno de trabajo JupyterLab, así como se han identificado cada uno de los elementos que la conforman. En este apartado se profundizará en cada una de las librerías necesarias para trabajar proyectos de ciencia de datos, puntualmente las que ayudarán en todo el proceso de limpieza y transformación de los datos.
           p Estos son algunos aspectos clave que usted debe tener en cuenta sobre las librerías:
           .BGRS02.p-4
             SlyderA(tipo="b")

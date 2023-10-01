@@ -30,7 +30,7 @@
                 .col-lg-4.col-6
                   img(src='@/assets/curso/tema2/img04.svg' alt="Imagen decorativa")
               .h4.texto-acento-botones.text-center ERP
-              p.mb-0 Son #[i Software] que se utilizan para administrar las operaciones de las empresas o negocios como el manejo clientes, cartera, contabilidad, recursos humanos, manufactura, entre otras.
+              p.mb-0 Son #[i Software] que se utilizan para administrar las operaciones de las empresas o negocios, como el manejo de clientes, cartera, contabilidad, recursos humanos, manufactura, entre otras.
             .BGRS02.hg-03.p-4
               .row.justify-content-center.mb-5
                 .col-lg-4.col-6
@@ -48,7 +48,7 @@
                 .col-lg-4.col-6
                   img(src='@/assets/curso/tema2/img07.svg' alt="Imagen decorativa")
               .h4.texto-acento-botones.text-center Redes sociales
-              p.mb-0 Permiten la captura de información referente a estados de ánimo, publicaciones, preferencias, gustos y diferente tipo de información para acceder a dicha información se necesitan una autenticación con usuario y contraseña.
+              p.mb-0 Permiten la captura de información referente a estados de ánimo, publicaciones, preferencias, gustos y diferente tipo de información; para acceder a dicha información se necesitan una autenticación con usuario y contraseña.
             .BGRS02.hg-03.p-4
               .row.justify-content-center.mb-5
                 .col-lg-4.col-6
@@ -69,7 +69,7 @@
         .col-lg-1.col-2
           img(src='@/assets/curso/tema2/img10.svg' alt="Imagen decorativa")
         .col
-          p.mb-0 Actualmente se pueden encontrar fuentes de datos públicas de salud, economía, construcción, tendencias y casi que cualquier tipo de tema que se quiera analizar, por ende, se puede afirmar que los datos se han convertido en los activos más importante para cualquier organización pues ellos son la base para la toma de decisiones estratégicas, por tal motivo es necesario establecer protocolos y normas para su manejo, teniendo en cuenta criterios como confidencialidad, disponibilidad e integridad.
+          p.mb-0 Actualmente se pueden encontrar fuentes de datos públicas de salud, economía, construcción, tendencias y casi que cualquier tipo de tema que se quiera analizar, por ende, se puede afirmar que los datos se han convertido en los activos más importantes para cualquier organización, pues ellos son la base para la toma de decisiones estratégicas, por tal motivo es necesario establecer protocolos y normas para su manejo, teniendo en cuenta criterios como confidencialidad, disponibilidad e integridad.
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -120,14 +120,14 @@
             .row.justify-content-center.mb-4
               .col-6
                 img(src='@/assets/curso/tema2/img15.png' alt="Imagen decorativa")
-            .h4.text-center Maria DB
+            .h4.text-center MariaDB
             p.mb-0 Igualmente, de código abierto utilizada para proyectos más pequeños que no requieren gran volumen y procesamiento de datos.
         .col-xl-4.col-md-6.col-10.mb-xl.mb-4(data-aos="flip-up")
           .tarjeta--boton.color-acento-botones.hg-04.p-4
             .row.justify-content-center.mb-4
               .col-6
                 img(src='@/assets/curso/tema2/img16.png' alt="Imagen decorativa")
-            .h4.text-center MySQ
+            .h4.text-center MySQL 
             p.mb-0 Es una de las bases de datos más utilizadas en el mundo, se conecta con múltiples sistemas de información y sistemas operativos, maneja una versión gratis y versiones comerciales.
         .col-xl-4.col-md-6.col-10(data-aos="fade-left")
           .BG05.hg-04.p-4
@@ -220,7 +220,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Tipos de archivos
 
-    p.mb-5 La información que es almacenada en las bases de datos, ya sean relacionales o no relacionales, puede ser extraída en diferentes tipos de archivo. Dependiendo del tipo de archivo, la información se visualiza de diversas maneras; son múltiples los tipos de archivos en los que se almacena la información. Para este caso se abarcarán algunas de los más comunes en análisis de datos:
+    p.mb-5 La información que es almacenada en las bases de datos, ya sean relacionales o no relacionales, puede ser extraída en diferentes tipos de archivo. Dependiendo del tipo de archivo, la información se visualiza de diversas maneras; son múltiples los tipos de archivos en los que se almacena la información. Para este caso se abarcarán algunos de los más comunes en análisis de datos:
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #FDBF2D; border-radius: 9px;" data-aos="fade-right")
@@ -270,7 +270,7 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img23.svg' alt="Imagen decorativa")
         .col-lg-8(data-aos="fade-left")
-          p.mb-0 El CSV es un tipo de formato que se puede abrir casi en cualquier programa como, por ejemplo, un sencillo block de notas, aunque allí la compresión de los datos no es tan clara, por ende, en hojas de cálculo como Excel, Google Sheet, u otros programas compatibles con esta estructura, es un formato que no admite gráficos, tablas, colores o fuentes y está diseñado, simplemente, como un contendedor de información en la forma más simple.
+          p.mb-0 El CSV es un tipo de formato que se puede abrir casi en cualquier programa como, por ejemplo, un sencillo #[i bloc] de notas, aunque allí la compresión de los datos no es tan clara, por ende, en hojas de cálculo como Excel, Google Sheet, u otros programas compatibles con esta estructura, es un formato que no admite gráficos, tablas, colores o fuentes y está diseñado, simplemente, como un contendedor de información en la forma más simple.
 
       .h4.texto-acento-botones.mb-5 Pero, ¿por qué utilizar este tipo de formatos?
 
@@ -304,7 +304,7 @@
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema2/img27.svg" alt="Imagen decorativa")
             .col
-              p.mb-0 Este es uno de los formatos más utilizados para los proyectos de analítica de datos en los que se requiere procesar grandes volúmenes de información, por ende, desde la preparación de los datos es importante ir planeando el proceso para optimización de recursos, tanto en el almacenamiento como en el procesamiento, en ese sentido los archivos en este tipo de formato son altanamente recomendados.
+              p.mb-0 Este es uno de los formatos más utilizados para los proyectos de analítica de datos en los que se requiere procesar grandes volúmenes de información, por ende, desde la preparación de los datos es importante ir planeando el proceso para optimización de recursos, tanto en el almacenamiento como en el procesamiento, en ese sentido los archivos en este tipo de formato son altamente recomendados.
 
     .BGIMG02.p-md-5.p-4.pb-5
       p.text-center.mb-5 A continuación, conozca los pasos para convertir un archivo en formato CSV a formato XLSX:
@@ -328,7 +328,7 @@
 
             .row
               .col-md-6.mb-4.mb-md-0
-                p Entonces, se deben separar los datos por comas; una vez seleccionado texto en columnas se abrirá el asistente en el cual se podrá elegir cómo separar los registros. Se deben seleccionar delimitados, posteriormente seleccionar que la separación se realizará por comas.Desde la hoja de cálculo Excel, abrir el archivo formato CSV.
+                p Entonces, se deben separar los datos por comas; una vez seleccionado texto en columnas se abrirá el asistente en el cual se podrá elegir cómo separar los registros. Se deben seleccionar delimitados, posteriormente seleccionar que la separación se realizará por comas.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema2/img30.jpg', alt='Imagen que muestra el resultado en el asistente.')
@@ -350,7 +350,7 @@
           img.img-01.mb-1(src='@/assets/curso/temas/img01.svg' style="max-width: 45px; margin-left: 8px;")
           h3.col.ps-3.mb-0 Archivos JSON
 
-      p.mb-5 Más que un tipo de archivo es una estructura simple que se utiliza para el intercambio de información entre sitios web, cuando se realiza la exportación de este tipo de archivos se utilizan archivos de texto simple con extensión TXT o JSON. Este tipo de estructuras se puede obtener desde bases de datos relacionales, cuando es necesario compartir grandes volúmenes de datos o también para el intercambio de información entre sistemas.
+      p.mb-5 Más que un tipo de archivo es una estructura simple que se utiliza para el intercambio de información entre sitios web, cuando se realiza la exportación de este tipo de archivos se utilizan archivos de texto simple con extensión TXT o JSON. Este tipo de estructuras se puede obtener desde bases de datos no relacionales, cuando es necesario compartir grandes volúmenes de datos o también para el intercambio de información entre sistemas.
 
       .row.justify-content-center.mb-5
         .col-lg-8

@@ -13,7 +13,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/wjYcgzSs-pc?si=A2SkMolGqWYtii3h" title="Búsqueda de la información" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/8sR-ruDBick?si=8Fhb6XIUn4YHXn7P" title="Búsqueda de la información" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Búsqueda de la información
 
 
